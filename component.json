@@ -1,0 +1,9 @@
+{
+  "name": "getycosy",
+  "version": "0.0.1",
+  "private": true,
+
+  "dependencies": {
+    "frag": "1.2.x"
+  }
+}
