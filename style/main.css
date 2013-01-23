@@ -898,8 +898,8 @@ small.error {
   color: #888;
   font-style: italic;
 }
-.large {
-  font-size: 18px;
+.pad-top {
+  padding-top: 16px;
 }
 ul li ul,
 ul li ol,
@@ -947,4 +947,27 @@ button:focus,
 .button:focus {
   background: #222;
   color: #fff;
+}
+.block-list li b {
+  text-align: right;
+  background: #aaa;
+  border: none;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1;
+  outline: none;
+  margin: 0;
+  padding: 16px;
+  width: 7em;
+}
+.block-list li:hover b {
+  background: #222;
+  color: #fff;
+}
+.block-list li pre {
+  display: inline-block;
+  overflow: hidden;
+  margin-left: 20px;
 }
